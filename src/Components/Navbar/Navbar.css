@@ -1,0 +1,70 @@
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 92px;
+    margin-bottom: 50px;
+}
+.nav_center{
+    height: 37px;
+    width: 321px;
+    display: flex;
+    align-items: center;
+}
+.nav_center > ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+ul > li{
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+.nav_right{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+    height: 62px;
+}
+
+.nav_right > button{
+    background-color: #7C71DF;
+    border: none;
+    border-radius: 300px;
+    outline: none;
+    width: 146px;
+    color: white;
+    font-size: 16px;
+    height: 40px;
+    font-family: sans-serif;
+}
+
+.nav_right > .cart_icon-counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #F8F7FB;
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.cart_icon-counter > p{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: #F65061;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 12px;
+    top: 0;
+    right: 0;
+}

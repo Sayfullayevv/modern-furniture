@@ -1,0 +1,32 @@
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+}
+.header-top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.header-top > p{
+    font-size: 18px;
+    font-family: sans-serif;
+    text-align: center;
+}
+.header-top > span{
+    font-size: 61px ;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 20px ;
+    margin-bottom: 17px;
+}
+.header-top > p:nth-child(2){
+    font-size: 20px;
+}
