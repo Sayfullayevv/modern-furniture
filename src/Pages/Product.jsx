@@ -14,7 +14,7 @@ export default function Product({ products }) {
     <>
       <Navbar />
       <div className="product">
-        <img src={product.productImage} width={"400px"} alt="" />
+        <img src={product.productImage} className="productImage" width={"400px"} alt="" />
         <div
           style={{
             display: "flex",
@@ -26,6 +26,7 @@ export default function Product({ products }) {
             style={{
               fontSize: "45px",
             }}
+            className="productName"
           >
             {product.productName}
           </p>
@@ -35,6 +36,7 @@ export default function Product({ products }) {
               wordSpacing: "10px",
               lineHeight: "25px",
             }}
+            className="productDesc"
           >
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur
             suscipit hic unde obcaecati, in dolore qui accusantium neque debitis

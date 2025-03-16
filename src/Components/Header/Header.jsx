@@ -15,13 +15,13 @@ export default function Header() {
           <span>
             Discover the Artistry of Modern <br />Contemporary Furniture
           </span>
-          <p>
+          <p className="sentence">
             Experience the elegance and functionality of cutting-edge design
             where luxury meets innovation in every piece for <br />ultimate relaxation
           </p>
         </div>
         <div className="header-bottom">
-            <img src={headerImage} width='1230px' alt="" />
+            <img src={headerImage}  className="header-img" alt="" />
         </div>
       </div>
       <Products/>
